@@ -13,4 +13,4 @@ jobs:
     
     - name: Run arbitrary code inside the container
       run: |
-        docker exec my-container ls
+        docker exec test ls
