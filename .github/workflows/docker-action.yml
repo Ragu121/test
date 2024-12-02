@@ -1,6 +1,6 @@
 name: GitHub Actions Docker Demo
 run-name: ${{ github.actor }} testing GitHub Actions
-on: [workflow_dispatch]
+on: [push]
 jobs:
   build-and-run:
     runs-on: ubuntu-latest
