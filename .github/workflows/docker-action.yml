@@ -9,7 +9,7 @@ jobs:
     
     - name: Run Docker container
       run: |
-        docker run -vt --rm alpine test
+        docker run -v alpine test
     
     - name: Run arbitrary code inside the container
       run: |
