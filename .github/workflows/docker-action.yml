@@ -4,9 +4,7 @@ on: [push]
 jobs:
   build-and-run:
     runs-on: ubuntu-latest
-    
     steps:
-    
     - name: Run Docker container
       run: |
         docker run -v test alpine ls
