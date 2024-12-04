@@ -1,2 +1,2 @@
 FROM alpine:latest
-RUN echo "Hai, How are you ?"
+CMD [echo "Hai, How are you ?"]
