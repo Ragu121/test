@@ -34,3 +34,4 @@ jobs:
     - name: Deploy to container
       run: |
         docker run -d --name my-container -p 80:80 ${{ secrets.DOCKER_USERNAME }}/my-image:latest
+        docker ps
