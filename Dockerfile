@@ -1,2 +1,2 @@
-FROM ubuntu:22.04
+FROM apline:latest
 CMD echo 'Hai, How are you ?'
